@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Close', 'Open', 'Persona']
+
+roboflow:
+  workspace: proambiente
+  project: office-2-qy1jn
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/proambiente/office-2-qy1jn/dataset/6
